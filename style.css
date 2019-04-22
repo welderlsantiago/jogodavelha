@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body h1{
+    font-family: 'Anton', sans-serif;
+    color: green;
+}
+main{
+    width: 30%;
+    height: 30%;
+    display: grid;
+    grid-template-areas:'casa0 casa1 casa2'
+                        'casa3 casa4 casa5'
+                        'casa6 casa7 casa8';
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+}
+/* #barra{
+    background-color: aqua;
+    height: 50px;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+div img{
+    height: 100%;
+    width: 20%;
+    display: flex;
+}
+ .jogadorX{
+    display: flex;
+    justify-content: flex-start;
+} */
+.casa0{
+    grid-area: casa0;
+    background-color: none;
+    border: 1px solid black;
+}
+.casa1{
+    grid-area: casa1;
+    border: 1px solid black;
+}
+.casa2{
+    grid-area: casa2;
+    border: 1px solid black;
+
+}
+.casa3{
+    grid-area: casa3;
+    border: 1px solid black;
+
+}
+.casa4{
+    grid-area: casa4;
+    border: 1px solid black;
+
+}
+.casa5{
+    grid-area: casa5;
+    border: 1px solid black;
+
+}
+.casa6{
+    grid-area: casa6;
+    border: 1px solid black;
+
+}
+.casa7{
+    grid-area: casa7;
+    border: 1px solid black;
+
+}
+.casa8{
+    grid-area: casa8;
+    border: 1px solid black;
+
+}
+.adX{
+    background-image: url("images/x.png");
+    background-size: cover;
+}
+.adO{
+    background-image: url("images/circulo.png");
+    background-size: cover;
+}
+header div img{
+    height: 100%;
+    width: 5%;
+}
+header div{
+    display: flex;
+    justify-content: center;
+}
